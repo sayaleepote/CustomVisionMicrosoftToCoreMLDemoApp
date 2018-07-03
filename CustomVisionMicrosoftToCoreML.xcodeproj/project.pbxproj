@@ -13,6 +13,7 @@
 		4829C79620E54A1800F77F34 /* CustomVisionMicrosoftToCoreML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4829C79420E54A1800F77F34 /* CustomVisionMicrosoftToCoreML.xcdatamodeld */; };
 		4829C79820E54A1900F77F34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4829C79720E54A1900F77F34 /* Assets.xcassets */; };
 		4829C79B20E54A1900F77F34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4829C79920E54A1900F77F34 /* LaunchScreen.storyboard */; };
+		4829C7A320E54AC100F77F34 /* HandSigns.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4829C79720E54A1900F77F34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4829C79A20E54A1900F77F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4829C79C20E54A1900F77F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandSigns.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				4829C78D20E54A1800F77F34 /* AppDelegate.swift */,
 				4829C78F20E54A1800F77F34 /* ViewController.swift */,
+				4829C7A220E54AC100F77F34 /* HandSigns.mlmodel */,
 				4829C79120E54A1800F77F34 /* Main.storyboard */,
 				4829C79720E54A1900F77F34 /* Assets.xcassets */,
 				4829C79920E54A1900F77F34 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4829C7A320E54AC100F77F34 /* HandSigns.mlmodel in Sources */,
 				4829C79020E54A1800F77F34 /* ViewController.swift in Sources */,
 				4829C78E20E54A1800F77F34 /* AppDelegate.swift in Sources */,
 				4829C79620E54A1800F77F34 /* CustomVisionMicrosoftToCoreML.xcdatamodeld in Sources */,
@@ -284,14 +288,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 54NTRVDHZ4;
 				INFOPLIST_FILE = CustomVisionMicrosoftToCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.app.CustomVisionMicrosoftToCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CustomVisionMicrosoftToCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +309,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 54NTRVDHZ4;
 				INFOPLIST_FILE = CustomVisionMicrosoftToCoreML/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.app.CustomVisionMicrosoftToCoreML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.CustomVisionMicrosoftToCoreML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
